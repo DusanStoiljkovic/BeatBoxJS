@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.drum-container {
+  position: relative;
+  width: 400px; /* širina slike bubnja */
+  margin: 0 auto;
+}
+
+.drum-img {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+.drum {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid #333;
+  background-color: #eee;
+  color: #222;
+  font-weight: bold;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  transition: all 0.1s ease;
+  box-shadow: 0 4px 0 #999;
+}
+
+.drum.active {
+  background-color: #f39c12;
+  box-shadow: 0 2px 0 #666;
+  transform: translateY(2px);
+}
+
+
+.crash-img {
+  position: absolute;
+  top: 190px;
+  left: 398px;
+  width: 180px;
+  rotate: calc(-8deg);
+}
+
+.hihat-img {
+  position: absolute;
+  top: 240px;
+  right: 387px;
+  width: 175px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
