@@ -1,5 +1,7 @@
 # BeatBoxJS
 
+<img width="1115" height="860" alt="Screenshot 2025-12-15 161829" src="https://github.com/user-attachments/assets/aa168fb2-91c9-4693-b3b4-30180929463e" />
+
 ## Overview
 BeatBoxJS is an interactive drum kit built with JavaScript. Users can play drum sounds using their keyboard or by clicking on the drum pads. The project demonstrates event handling, audio playback, and simple animations in the browser.
 
